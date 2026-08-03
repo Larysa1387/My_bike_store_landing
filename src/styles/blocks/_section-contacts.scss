@@ -37,7 +37,12 @@
       font-family: inherit;
       font-size: 14px;
       line-height: 20px;
-      color: $form-text-color;
+      color: $secondary-dark-color;
+
+      &::placeholder {
+        color: $form-text-color;
+        opacity: 1;
+      }
 
       &:focus {
         outline: unset;
